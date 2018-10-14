@@ -1,0 +1,40 @@
+/*************************************************************/
+/* CONTACT PAGE - contact.php                               */
+/*************************************************************/
+
+#contact {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form_block_sm {
+    display: inline-block;
+    width: 50%;
+    padding: 0.25em 1em;
+}
+
+.form_block_sm:nth-of-type(2n-1) {
+    float: left;
+}
+
+.form_block_sm:nth-of-type(2n) {
+    float: right;
+}
+
+.form_block_lg {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    padding: 0.25em 1em;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 0;
+    resize: none;
+}
+
+.required {
+    color: #ff0000;
+    padding-left: 0.3em;
+}

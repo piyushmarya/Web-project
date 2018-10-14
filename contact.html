@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
+	</head>
+	
+	<body>
+
+		<div id="top">
+				<header>
+						<img src="logo.gif" height="44" width="44" alt="logo of company">
+						<h1>Trillium Web Creations</h1>
+				</header>	
+		</div>
+			
+		<div id="middle">
+				<div>
+					
+						<ul>
+							<li class="li"><a href="index.html">Home</a></li>
+							<li class="li"><a href="services.html">Services</a></li>
+							<li class="li"><a href="form.html">Join us</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					
+						<img src="img.png" width="196" height="100" alt="add an image">
+				</div>
+				
+				<main class="page_row">
+            <div id="content_wrapper" class="centered">
+                <article>
+                    <form name="contact" method="post" id="contact" action="./formmail.php"
+                        onsubmit="return warnContact('firstname', 'lastname', 'email', 'remail', 'comment',
+                            'firstname_feedback', 'lastname_feedback', 'email_feedback', 'remail_feedback',
+                                'comment_feedback')">
+                        <input type="hidden" name="recipients" value="winshortcuts@gmail.com"/>
+                        <input type="hidden" name="subject" value="Contact from site form"/>
+                        <input type="hidden" name="good_url" value="./contact_sent.php"/>
+                        <input type="hidden" name="mail_options" value="Exclude=realname;remail"/>
+                        <h2>Contact</h2>
+
+                        <div class="form_block_sm">
+                            <label for="firstname">First Name</label><br>
+                            <input type="text" name="firstname" id="firstname" placeholder="First Name" size="26">
+                            
+                        </div>
+
+                        <div class="form_block_sm">
+                            <label for="lastname">Last Name</label><br>
+                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" size="26">
+                        </div><br class="clear">
+
+                        <div class="form_block_sm">
+                            <label for="email">Email Address<span class="required">*</span></label><br>
+                            <input type="text" required name="email" id="email" placeholder="Email Address" size="26">
+                        </div>
+
+                        <div class="form_block_sm">
+                            <label for="remail">Confirm Email Address<span class="required">*</span></label><br>
+                            <input type="text" required name="remail" id="remail" placeholder="Email Address" size="26">
+                        </div>
+
+                        <div class="form_block_lg">
+                            <label for="comment">Message<span class="required">*</span></label>
+                            <textarea required name="comment" id="comment" rows="5" cols="82" placeholder="Type here your message..."
+                            ></textarea><br>
+                            <button id="contact_submit_button" type="submit" form="contact" value="Submit">Submit</button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </main>
+		</div>
+			
+			
+		<div id="bottom">	
+				<footer>
+					<p>Copyright &copy; 2017 | Designed by: <a href="#">Piyush 1610991612</a></p>
+				</footer>
+		</div>	
+
+	</body>
+</html>
+	

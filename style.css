@@ -1,0 +1,66 @@
+body {margin:0;
+      background-color:#EFECCA;
+	  font-family:"lucia grande",sans-serif}
+
+#top {background-color:#22539F;
+	  color:#ffffff;
+	  border-top:6px solid #2D82FF;
+	  padding-bottom:8px;
+	  position:fixed;
+	  width:100%}
+
+header {margin:auto;
+	    width:760px}
+
+header img {float:left;}
+header h1 {padding-left:60px;
+           font-weight:100}
+
+
+#middle {margin:auto;
+		 width:760px;
+		 padding-top:100px;
+		 padding-bottom:680px;}
+
+#middle div	{float:left;width:196px;}
+#middle div img {padding-top:10px}
+
+main {float:right;
+	  width:530px;
+	  border-left:1px solid gray;
+	  padding-left:15px;}
+main h2,h3 {color:#2D82FF}
+
+ul {list-style: none;
+	padding:0 20px 0 10px;
+	font-weight:bold;
+	color:#2D82FF;}
+	
+li {padding:3px 0 3px 20px;
+	background-image:URL(arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left;}
+
+nav {background-image:URL(nav_side.jpg);}
+ul {background-image:URL(nav_btm.jpg);background-repeat:no-repeat;background-position:bottom}
+#middle a {text-decoration:none;}
+
+.li {border-bottom:1px solid #000000;}
+.endingimg {padding-left:20px}
+.img {position:relative;bottom:27px;}
+
+
+#bottom {background-color:#D4D1B3;
+	     padding-bottom:10px;
+		 clear:both;width:100%;
+		 position:fixed;
+		 bottom:0;}
+
+footer {margin:auto;width:760px;}
+footer p {text-align:center;}
+.float {position:relative;
+		right:69px;
+		top:40px}
+
+
+

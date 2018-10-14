@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="form.css">
+	</head>
+	
+	<body>
+
+		<div id="top">
+				<header>
+						<img src="logo.gif" height="44" width="44" alt="logo of company">
+						<h1>Trillium Web Creations</h1>
+				</header>	
+		</div>
+			
+		<div id="middle">
+				<div class="nav">
+					<nav>
+						<ul>
+							<li class="li"><a href="index.html">Home</a></li>
+							<li class="li"><a href="services.html">Services</a></li>
+							<li class="li"><a href="form.html">Join us</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					</nav>
+						<img src="img.png" width="196" height="100" alt="add an image">
+				</div>
+				
+				<main>
+                    
+                    <h2>Who are we</h2>
+                    <p>We are a group of students, past and present, offering our website creation services to non-profit organisations in the lower mainland. We work in teams made up of experts in design, development and project management.</p>
+                    <img class="endingimg" src="hr.gif" height="8" width="485" alt="end of paragraph"><br>
+                    <h3><img src="h2.gif" height="20" width="20" alt="Section heading image"> &nbsp;Join us now!</h3>
+                    <p>To join this dynamic group of we developers, fill in the application below and you will contacted shortly.</p>
+                 
+                        
+                        <div class="space">
+                            <label for="selPosition">Which position are you applying for?<span>*</span></label><br>
+                            <select name="selPosition" id="selPosition" >
+                            <option value>&nbsp;</option>
+                            <option value="project_manager">Project Manager</option>
+                            <option value="graphic_designer">Graphic Designer</option>
+                            <option value="web_developer">Web Developer</option>
+                            <option value="database">Database Administrator</option>
+                            </select>
+                        </div><br>
+                        
+                        <div class="space">
+                            <label >Passed CST*</label><br>
+                            <input type="radio" name="qualification" id="radPassedWeb_0" value="yes" checked>yes<br>
+                            <input type="radio" name="qualification" id="radPassedWeb_1" value="no" ">no
+                        </div><br>
+                        
+                        <div class="space">
+                            <label for="txtStartDate_0">Earliest start date?*</label><br>
+                            <input type="text"  size="1" > /
+                            <input type="text"  size="1" > /
+                            <input type="text"  size="4"><br>
+                            <div class="time">MM</div>
+                            <div class="time">DD</div>
+                            <div class="font">YYYY</div>
+                        </div><br>
+                        
+                        <div class="space">
+                            <label for="txtPortfolio">Portfolio URL</label><br>
+                            <input type="text" name="txtPortfolio" id="txtPortfolio" value="http://" size="80">
+                        </div><br>
+                        
+                        <div class="space">
+                            <label for="filResume">Attach resume</label><br>
+                            <input type="file" name="filResume" id="filResume" onblur="warnFilResume('filResume')">
+                        </div><br>
+                        
+                        <div class="space">
+                            <label>Name*</label><br>
+                            <input type="text" name="txtFirstName" id="txtFirstName" size="10" >
+                            <input type="text" name="txtLastName" id="txtLastName" size="20" ><br>
+							</div><br>
+                        
+                        <div class="space">
+                            Email*<br>
+                            <input type="text" name="txtEmail" id="txtEmail" size="80" >
+                        </div><br>
+                        
+                        <div class="space">
+                            Phone*<br>
+                            <input type="text" size="2"> - 
+                            <input type="text"  size="2" > - 
+                            <input type="text" size="2" ><br>
+
+                        </div><br>
+                        
+                        <div class="space">
+                          Any additional information for us><br>
+                            <textarea name="taComments" id="taComments" cols="50" rows="5"></textarea>
+                        </div><br>
+                        
+                        <input type="submit">
+                        <input type="reset">
+                        
+                    </form>
+                </main>
+		</div>
+			
+			
+		<div id="bottom">	
+				<footer>
+					<p>Copyright &copy; 2017 | Designed by: Piyush(1610991612)</a></p>
+				</footer>
+		</div>	
+
+       
